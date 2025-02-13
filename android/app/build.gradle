@@ -1,0 +1,43 @@
+plugins {
+    id "com.android.application" apply false  // Remove version here
+    id "com.google.gms.google-services"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.vehicle_parking_management_updated"
+    compileSdk = 34  // Use the latest version your environment supports
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.example.vehicle_parking_management_updated"
+        minSdk = 23  // Explicitly set the minimum SDK version to 23
+        targetSdk = 33  // Match the latest version supported by your project
+        versionCode = 1  // Define app version code
+        versionName = "1.0"  // Define app version name
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.7.0')
+}

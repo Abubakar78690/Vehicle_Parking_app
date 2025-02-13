@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493376948116",
+    "project_id": "vehicle-parking-manageme-9f3b4",
+    "storage_bucket": "vehicle-parking-manageme-9f3b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493376948116:android:9a05743405255d0f93f181",
+        "android_client_info": {
+          "package_name": "com.example.vehicle_parking_management_updated"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493376948116-brsa0v0eskiv1k1hvk28qe0eribpihr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIlCQiIhycq2Lb4lKCctkueF1gUj0an4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493376948116-brsa0v0eskiv1k1hvk28qe0eribpihr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
