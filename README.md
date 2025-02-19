@@ -48,10 +48,6 @@ Integrate visually appealing parking slot views.
 
 📌 Setup Instructions
 
-Clone the repository:
-
-git clone https://github.com/yourusername/ParkEase.git
-
 Install dependencies:
 
 flutter pub get
